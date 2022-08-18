@@ -1,0 +1,14 @@
+run = "go build && ./leafserver"
+hidden = ["Makefile", "main", "leafserver"]
+
+[languages.go]
+pattern = "**/*.go"
+
+[languages.go.languageServer]
+start = "gopls"
+
+[nix]
+channel = "stable-22_05"
+
+[gitHubImport]
+requiredFiles = [".replit", "replit.nix"]

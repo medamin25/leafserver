@@ -1,0 +1,30 @@
+{ pkgs }: {
+    deps = [
+        pkgs.go_1_18
+        pkgs.gopls
+        pkgs.nano
+        pkgs.vim
+        pkgs.less
+        pkgs.file
+        pkgs.gnumake
+        pkgs.go-task
+        pkgs.curl
+        pkgs.bash
+        pkgs.bash-completion
+        pkgs.zsh
+        pkgs.fish
+        pkgs.git
+        pkgs.tig
+        pkgs.git2cl
+        pkgs.git-lfs
+        pkgs.gh
+        pkgs.gh2md
+        pkgs.git-bug
+        pkgs.git-town
+        pkgs.git-fame
+        pkgs.git-stree
+        pkgs.git-sizer
+        pkgs.git-radar
+        pkgs.git-cliff
+    ];
+}
